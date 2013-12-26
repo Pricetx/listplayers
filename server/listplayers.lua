@@ -16,8 +16,8 @@ function ListPlayers:__init()
 	Console:Subscribe("list", self, self.List)
 end
 
+-- Player typed "/list"
 function ListPlayers:OnPlayerChat(args)
-	-- Player typed "/list"
     if args.text == "/list" then
         local stringlist = ""
         Chat:Send(args.player, "There are " .. Server:GetPlayerCount() .. " player(s) connected:", self.chatColor)
