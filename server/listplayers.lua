@@ -1,7 +1,7 @@
 -- Script to list number and names of players to console or chat
 -- Original Author, Jonathan Price
 -- License can be found at https://github.com/Pricetx/listplayers
--- Version: 0.1
+-- Version: 0.2
 class 'ListPlayers'
 
 -- This code executes when the class is created
